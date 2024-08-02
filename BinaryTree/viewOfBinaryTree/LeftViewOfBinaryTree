@@ -1,0 +1,34 @@
+problem : https : // www.geeksforgeeks.org/problems/left-view-of-binary-tree/1
+
+  vector<int> leftView(Node *root)
+{
+//   level Order Traversal 
+ vector<int>temp;
+if(root==NULL) return temp;
+queue<Node*>q;
+q.push(root);
+
+while(!q.empty()){
+
+    int size=q.size();
+
+  
+      Node* current = q.front();
+     
+     temp.push_back(current->data);
+
+    while(size){
+
+         current = q.front();
+        
+         if(current->left != NULL) q.push(current->left);
+         
+         if(current->right != NULL) q.push(current->right);
+         
+         size--;
+        
+        q.pop();
+    }
+  }
+  return temp;
+}
