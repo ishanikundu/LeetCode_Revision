@@ -64,9 +64,10 @@ vector<int>twoSum(int target, vector<int> nums)
 
     for (int i = 0; i < nums.size(); i++)
     {
-        if (mp[diff] != mp.find)
-        {
-            return {i, mp[diff]};
+      int diff = target - nums[i];
+      if (mp[diff] != mp.find)
+      {
+        return {i, mp[diff]};
         }
         // form the map
         mp[nums[i]] = i;
