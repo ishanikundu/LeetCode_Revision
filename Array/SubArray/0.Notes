@@ -8,8 +8,6 @@
 8)K Radius Subarray Averages  :         https://leetcode.com/problems/k-radius-subarray-averages/description/
 9)Maximum Average Subarray I   :        https://leetcode.com/problems/maximum-average-subarray-i/description/
 10)Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold  :  https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-  
-11) https://leetcode.com/problem-list/rcllvwi6/
-
 Remember for question     
     2.Subarray Sum == k        https://leetcode.com/problems/subarray-sum-equals-k/description/
     3.Subarray Sum % k == 0    https://leetcode.com/problems/subarray-sums-divisible-by-k/description/ 
