@@ -1,1 +1,12 @@
 1. Longest Subarray without Repeation character : 
+2. Forgot Password but we know ascii value in reverse order Now find the password(IBM)
+3.reverse-words-in-a-string  [IMP]
+4.longest-palindromic-substring
+5.Valid Paranthesis
+6. generate Paranthesis [imp]
+7. Longest Common Prefix
+8. Find Occurence of first index of string [KMP]
+9. Roman to integer 
+10. Integer to Roman [imp]
+11. Repeated String Pattern I  https://leetcode.com/problems/repeated-substring-pattern/description/  [using LPS ]
+12. Repeated String Pattern II https://leetcode.com/problems/repeated-string-match/ [Using KMP]
